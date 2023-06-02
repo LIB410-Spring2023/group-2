@@ -1,7 +1,7 @@
 ---
-title: About
+title: Data Management Plan
 layout: about
-permalink: /about.html
+permalink: /dmp.html
 # include CollectionBuilder info at bottom
 credits: true
 # Edit the markdown on in this file to describe your collection
