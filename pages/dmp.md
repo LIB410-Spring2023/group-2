@@ -73,58 +73,63 @@ Template Created by Kate Thornhill, University of Oregon Libraries, and Julia St
 *Project Contributors:* Cecelia Staggs, Mattie Lucero, Isabelle Dana, Elena Perez 
 
 #### About this template 
-This data dictionary is intended to support the metadata standardization and object cataloging for the Humanities Research Data Management course. Objects may include images, videos, audio, documents, and other resource types. Each project group should have its method for resource description documented so catalogers can use this MAP for reference while performing resource descriptions. The data standards included in this MAP aligns with CollectionBuilder’s machine-readable requirements for object representation rendering and system functionality. [This MAP must align with the CollectionBuilder’s Data Dictionary](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/). 
-View example objects cataloged using a spreadsheet by going to [This Google Sheet](https://docs.google.com/spreadsheets/d/1PlsijRkIF3GVToJAI0BZM522XMy-8JZU_tjcskRhsvg/edit?usp=sharing).
+This data dictionary is intended to support the metadata standardization and object cataloging for the Humanities Research Data Management course. Objects may include images, videos, audio, documents, and other resource types. Each project group should have its method for resource description documented so catalogers can use this MAP for reference while performing resource descriptions. The data standards included in this MAP aligns with CollectionBuilder’s machine-readable requirements for object representation rendering and system functionality. This MAP must align with the [CollectionBuilder’s Data Dictionary](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/).
+
+View example objects cataloged using a spreadsheet by going to [this Google Sheet](https://docs.google.com/spreadsheets/d/1PlsijRkIF3GVToJAI0BZM522XMy-8JZU_tjcskRhsvg/edit?usp=sharing).
 
 #### MAP Table Explanation 
 **Metadata Element Name:**  This column represents the metadata field names required or recommended when using CollectionBuilder. 
+
 **Metadata Element Display Label:** This column represents the text that will display on a CollectionBuilder item page. View an Item Page example to see how elements are displayed. 
-**Data Entry Obligation:** This column represents a cataloger’s obligation to add a value to a specific metadata element. 
+
+**Data Entry Obligation:** This column represents a cataloger’s obligation to add a value to a specific metadata element.
+
 **Metadata Element Definition and Data Entry Standard Requirement:** This column represents the definition for metadata elements and how a cataloger needs to enter descriptions in a specific way for CollectionBuilder to be able to properly render and display metadata. 
+
 **Controlled Vocabulary Requirement:** This column represents if a cataloger needs to use a controlled vocabulary or not. If yes, then a cataloger should reference the controlled vocabularies table and use whichever one is identified. 
+
 **Example:** This column represents examples for how data should look 
 
 #### Object Example 
 This is an example of how you should enter data so it can accurately display on a CollectionBuilder item page. 
-objectid="lucero_image_pilingandburning"
-objectid: demo001 
+{% include feature/image.html objectid="lucero_image_pilingandburning" %}
 
-**title:** Oregon City, Oregon 
+**objectid:** lucero_image_pilingandburning 
 
-**filename:** oregoncity.jpg 
+**title:** Piling and burning slash
 
-**format:** image/jpeg 
+**filename:** lucero_image_pilingandburning.jpg
 
-**creator:** Carleton E. Watkins 
+**format:** image/jpeg
 
-**date:** 1867 
+**creator:** Rogue River-Siskiyou National Forest Agency
 
-**description:** A stenograph depicts a view of Oregon City featuring a mill and buildings 
+**date:** 1930
 
-**subject:** Pacific Coast; Oregon; Mills 
+**date created:** 1930
 
-**location:** Oregon City, OR 
+**description:** Two workers swing axes through piles of burnt wood in a forest.
 
-**latitude:** 45.3555789490032 
+**subject:** Workers; Logging
 
-**longitude:** -122.60635761082 
+**location:** Rogue River National Forest (forest)
 
-**source:** <a href="https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99" target="_blank">Robert N. Dennis Collection of Stereoscopic Views - The New York Public Library Digital Collections</a> 
+**latitude:** 42.06236385
 
-**identifier:** d1bde300-c52e-012f-bd93-58d385a7bc34 
+**longitude:** -123.9387952
 
-**type:** Image; StillImage 
+**source:** \<a href="https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453" target="_blank">Rogue River National Forest Historic Images - Southern Oregon Digital Archives</a> 
 
-**language: eng**
+**type:** Image; Still Image
 
-**creativecommons:** <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0</a> 
+**creativecommons:** \<a href="https://rightsstatements.org/page/NoC-US/1.0/" target="_blank">No Copyright - United States</a>
 
-**rights:** <a href="https://rightsstatements.org/page/NoC-US/1.0/" target="_blank">No Copyright - In the United States</a> 
+**rights:** \<a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0</a>
 
-**rightsnotes:** The copyright and related rights status of this item has been reviewed by The New York Public Library, but we were unable to make a conclusive determination as to the copyright status of the item. You are free to use this Item in any way that is permitted by the copyright and related rights legislation that applies to your use. 
+**rightsnotes:** Please provide the following credit required by the Memorandum of Understanding between Hannon Library and the Rogue River-Siskiyou National Forest: “This photograph is part of the Historical Records Collection of the Rogue River National Forest, and made available courtesy of Southern Oregon University Hannon Library.” See also: \<a href="http://soda.sou.edu/copyright.html"target="_blank">http://soda.sou.edu/copyright.html</a>
 
-**archivedpage:** https://web.archive.org/web/20230428201917/https://digitalcollections.nypl.org/items/d1bde300-c52e-012f-bd93-58d385a7bc34 
+**archivedpage:** \<a href="https://web.archive.org/web/20230522211809/https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453" target="_blank">Archived Page</a>
 
-**citation:** "Oregon City, Oregon," Carleton E. Watkins. 1837, The New York Public Library Digital Collections, New York. NYPL Digital Collections, Robert N. Dennis Collection of Stereoscopic Views, <a href='https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99' target='_blank'>https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99</a> 
+**citation:** "Piling and burning slash," Rogue River-Siskiyou National Forest Agency. 1930, Southern Oregon University, Oregon. Southern Oregon Digital Archives, Rogue River National Forest Historic Images, \<a href='https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453'target='_blank'>https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453</a>
 
 #### Metadata Cataloging Guidelines 
