@@ -48,8 +48,11 @@ Filenames should follow the following format: collectorlastname_filetype_briefob
 Examples: dana_image_bensoncampcrew_001, staggs_image_donkeyengine
 
 collectorlastname: The last name of whoever found the object and is recording it in this digital collection.
+
 filetype: What type of digital object the file is, i.e. image, document (doc), or audio
+
 briefobjectdescription: Briefly explaining what the object is in under twenty characters, in a way that would be clear to someone who is not a part of this project
+
 serialnumber: An optional addition to the end of the file name to describe multiple parts of a series of related files
 
 ### Legal and Ethical Restrictions 
