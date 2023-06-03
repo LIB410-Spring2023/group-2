@@ -86,3 +86,45 @@ View example objects cataloged using a spreadsheet by going to [This Google Shee
 
 #### Object Example 
 This is an example of how you should enter data so it can accurately display on a CollectionBuilder item page. 
+objectid="lucero_image_pilingandburning"
+objectid: demo001 
+
+**title:** Oregon City, Oregon 
+
+**filename:** oregoncity.jpg 
+
+**format:** image/jpeg 
+
+**creator:** Carleton E. Watkins 
+
+**date:** 1867 
+
+**description:** A stenograph depicts a view of Oregon City featuring a mill and buildings 
+
+**subject:** Pacific Coast; Oregon; Mills 
+
+**location:** Oregon City, OR 
+
+**latitude:** 45.3555789490032 
+
+**longitude:** -122.60635761082 
+
+**source:** <a href="https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99" target="_blank">Robert N. Dennis Collection of Stereoscopic Views - The New York Public Library Digital Collections</a> 
+
+**identifier:** d1bde300-c52e-012f-bd93-58d385a7bc34 
+
+**type:** Image; StillImage 
+
+**language: eng**
+
+**creativecommons:** <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0</a> 
+
+**rights:** <a href="https://rightsstatements.org/page/NoC-US/1.0/" target="_blank">No Copyright - In the United States</a> 
+
+**rightsnotes:** The copyright and related rights status of this item has been reviewed by The New York Public Library, but we were unable to make a conclusive determination as to the copyright status of the item. You are free to use this Item in any way that is permitted by the copyright and related rights legislation that applies to your use. 
+
+**archivedpage:** https://web.archive.org/web/20230428201917/https://digitalcollections.nypl.org/items/d1bde300-c52e-012f-bd93-58d385a7bc34 
+
+**citation:** "Oregon City, Oregon," Carleton E. Watkins. 1837, The New York Public Library Digital Collections, New York. NYPL Digital Collections, Robert N. Dennis Collection of Stereoscopic Views, <a href='https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99' target='_blank'>https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99</a> 
+
+#### Metadata Cataloging Guidelines 
