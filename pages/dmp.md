@@ -30,6 +30,7 @@ To find our data our group looked through GLAMS and gathered objects and metadat
 There are 24 images (.jpg), 1 text document (.pdf), and 1 audio interview (.mp3) within this digital collection, making up 26 total digital objects.
 
 Here is a breakdown of collection size, work type, file format, total number of assets, average file size, and average total size for a set of file types
+
 | Work Type | File Format | Total Assets | What is the average file size (in MB) for each file type in this collection? | What is the total size of all files (in MB) that have the same file type? |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | image | jpg | 24 | ?? mb | ?? mb |
