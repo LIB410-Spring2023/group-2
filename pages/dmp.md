@@ -25,6 +25,7 @@ Our digital collection thematic research topic is focused on the forestry indust
 ## Expected Data
 
 ## Period of Data Retention
+**The data will be available and displayed on our CollectionBuilder site as soon as it is uploaded to our github.**
 
 ## Data Formats and Dissemination
 
