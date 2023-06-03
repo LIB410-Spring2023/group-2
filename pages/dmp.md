@@ -24,7 +24,38 @@ To find our data our group looked through GLAMS and gathered objects and metadat
 
 - **Isabelle Dana,** *Metadata Manager,* has helped to organize our inventory list, decide on the metadata included in our MAP profile, facilitated object cataloging, and carried out metadata quality reviews. They also helped to complete any missing information in our MAP and uploaded all metadata to the group repository. In addition to fulfilling these responsibilities, Isabelle has taken on responsibilities from the Repository Manager role and has taken all meeting notes and recorded any decisions we have made related to the project, as well as helped to troubleshoot issues with CollectionBuilder. If Isabelle were to leave the project, these responsibilities would be allocated between the Project Manager and the Object Preservation Manager. 
 
-## Expected Data
+# Expected Data
+
+## Data Types
+There are 24 images (.jpg), 1 text document (.pdf), and 1 audio interview (.mp3) within this digital collection, making up 26 total digital objects.
+
+Here is a breakdown of collection size, work type, file format, total number of assets, average file size, and average total size for a set of file types
+| Work Type | File Format | Total Assets | What is the average file size (in MB) for each file type in this collection? | What is the total size of all files (in MB) that have the same file type? |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| image | jpg | 24 | ?? mb | ?? mb |
+| text | pdf | 1 | 2.44 mb | 2.44 mb |
+| audio | mp3 | 1 | 22.0 mb | 22.0 mb |
+
+In total the collection's data quantity is ?? mb as of June 2023
+
+## Data Handling
+Digital objects have been collected from several online repositories by Isabelle Dana, Mattie Lucero, Elena Perez, and Cecelia Staggs. They have ensured that these objects are either in public domain or have copyright licensing that allows for educational use and redistribution. All four group members have applied file naming standardization, file conversions, and resource descriptions to the collected digital objects. All data, including the digital objects and the metadata spreadsheet files, is held in the University of Oregon Dropbox folders of the team members, as well as in a Sharepoint folder. This collection is considered complete at of June 2023 and there is no plan to have additional digital objects added to it in the future.
+
+### File Naming Standard
+Filenames should follow the following format: collectorlastname_filetype_briefobjectdescription_serialnumber
+
+Examples: dana_image_bensoncampcrew_001, staggs_image_donkeyengine
+
+collectorlastname: The last name of whoever found the object and is recording it in this digital collection.
+filetype: What type of digital object the file is, i.e. image, document (doc), or audio
+briefobjectdescription: Briefly explaining what the object is in under twenty characters, in a way that would be clear to someone who is not a part of this project
+serialnumber: An optional addition to the end of the file name to describe multiple parts of a series of related files
+
+## Legal and Ethical Restrictions 
+We do not foresee any potential issues regarding legal or ethical restrictions. The objects chosen for this project are either in public domain or have copyright licenses that allow for educational use and redistribution with proper credit given. Additionally, all objects are from the 19th and 20th centuries and do not involve modern evolving ethical issues surrounding the logging and forestry industries in Oregon. Many of the objects were donated to the library repositories that the team obtained them from for the purposes of being shared for education, so there is not data that needs to be privatized in this collection.
+
+## Aggregated and Shared Data
+All digital objects, including images, documents, and audio files, will be available for download through the team's public CollectionBuilder page. Some of these objects are public domain, while others have certain restrictions around their use and distribution that generally involve giving credit to the repository or creator which currently hold rights over the object. These rights notes have been added to our CollectionBuilder website pages with the objects' metadata so that viewers will know which objects have these restrictions.
 
 ## Period of Data Retention
 **The data will be available and displayed on our CollectionBuilder site as soon as it is uploaded to our github.**
