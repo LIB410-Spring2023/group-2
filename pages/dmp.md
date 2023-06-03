@@ -63,7 +63,26 @@ All digital objects, including images, documents, and audio files, will be avail
 ## Data Formats and Dissemination
 The collection consists of files mostly in jpeg format, however, there is also one mp3 file and one pdf document. These file formats have been chosen due to their ability to be downloaded across multiple platforms, user interfaces, and operating systems. Our metadata has been stored as a csv file because it allows us to store our data as plain text, making it easily machine readable and transferrable from our repository to our repository web page. All objects included in our publicly available collection have been reviewed for copyright status and Creative Commons status and are all detailed in the metadata. Most objects are no longer in copyright; however some are either currently in copyright or copyright is still being evaluated. For those where copyright is still being evaluated or are still in copyright, detailed information regarding how to find the original sources, and links to rights statements have been provided to clarify the details of object sharing and legal dissemination of information. The information gathered in this collection has been shared with and managed by the *University of Oregon Digital Scholarship Services*, however, will also be available for anyone in the general public interested in learning about this topic.
 
-
 ## Data Storage and Preservation of Access
+Data for this project will be stored in the GitHub repository and accessible through the Collection Builder site. Copies of the data are saved in our team SharePoint and individually in our own Dropbox accounts. The metadata spreadsheet is also available in a group Google Drive folder. 
 
 ## Appendix
+### Metadata Application Profile
+Template Created by Kate Thornhill, University of Oregon Libraries, and Julia Stone, University of Idaho Libraries 
+*Digital Collection Name:* The Oregon Forestry Industry: Equipment and lifestyle of laborers in the 19th and 20th centuries 
+*Project Contributors:* Cecelia Staggs, Mattie Lucero, Isabelle Dana, Elena Perez 
+
+#### About this template 
+This data dictionary is intended to support the metadata standardization and object cataloging for the Humanities Research Data Management course. Objects may include images, videos, audio, documents, and other resource types. Each project group should have its method for resource description documented so catalogers can use this MAP for reference while performing resource descriptions. The data standards included in this MAP aligns with CollectionBuilder’s machine-readable requirements for object representation rendering and system functionality. [This MAP must align with the CollectionBuilder’s Data Dictionary](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/). 
+View example objects cataloged using a spreadsheet by going to [This Google Sheet](https://docs.google.com/spreadsheets/d/1PlsijRkIF3GVToJAI0BZM522XMy-8JZU_tjcskRhsvg/edit?usp=sharing).
+
+#### MAP Table Explanation 
+**Metadata Element Name:**  This column represents the metadata field names required or recommended when using CollectionBuilder. 
+**Metadata Element Display Label:** This column represents the text that will display on a CollectionBuilder item page. View an Item Page example to see how elements are displayed. 
+**Data Entry Obligation:** This column represents a cataloger’s obligation to add a value to a specific metadata element. 
+**Metadata Element Definition and Data Entry Standard Requirement:** This column represents the definition for metadata elements and how a cataloger needs to enter descriptions in a specific way for CollectionBuilder to be able to properly render and display metadata. 
+**Controlled Vocabulary Requirement:** This column represents if a cataloger needs to use a controlled vocabulary or not. If yes, then a cataloger should reference the controlled vocabularies table and use whichever one is identified. 
+**Example:** This column represents examples for how data should look 
+
+#### Object Example 
+This is an example of how you should enter data so it can accurately display on a CollectionBuilder item page. 
