@@ -37,6 +37,7 @@ Here is a breakdown of collection size, work type, file format, total number of 
 | text | pdf | 1 | 2.44 MB | 2.44 MB |
 | audio | mp3 | 1 | 22.0 MB | 22.0 MB |
 
+
 In total the collection's data quantity is 71.42 MB as of June 2023
 
 ### Data Handling
@@ -49,8 +50,10 @@ Examples: dana_image_bensoncampcrew_001, staggs_image_donkeyengine
 
 - collectorlastname: The last name of whoever found the object and is recording it in this digital collection.
 - filetype: What type of digital object the file is, i.e. image, document (doc), or audio
-- briefobjectdescription: Briefly explaining what the object is in under twenty characters, in a way that would be clear to someone who is not a part of this project
+- briefobjectdescription: This briefly explains what the object is in a way that would be clear to someone who is not a part of this project. This field should be 20 characters or less.
 - serialnumber: An optional addition to the end of the file name to describe multiple parts of a series of related files
+
+Files should always be named in this specific order, so that the information remains in order of most general to most specific. This makes information easier to find in a file search system. Additionally, all file names should be in lower-case, separated by underscores, with no spaces between any words. This makes sure the file names are machine readable and helps avoid any errors relating to capitalization or spacing.
 
 ### Legal and Ethical Restrictions 
 We do not foresee any potential issues regarding legal or ethical restrictions. The objects chosen for this project are either in public domain or have copyright licenses that allow for educational use and redistribution with proper credit given. Additionally, all objects are from the 19th and 20th centuries and do not involve modern evolving ethical issues surrounding the logging and forestry industries in Oregon. Many of the objects were donated to the library repositories that the team obtained them from for the purposes of being shared for education, so there is not data that needs to be privatized in this collection.
