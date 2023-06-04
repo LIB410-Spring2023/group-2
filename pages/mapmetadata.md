@@ -7,19 +7,19 @@ credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-### Metadata Application Profile
+# Metadata Application Profile
 Template Created by Kate Thornhill, University of Oregon Libraries, and Julia Stone, University of Idaho Libraries
 
 *Digital Collection Name:* The Oregon Forestry Industry: Equipment and lifestyle of laborers in the 19th and 20th centuries
 
 *Project Contributors:* Cecelia Staggs, Mattie Lucero, Isabelle Dana, Elena Perez 
 
-#### About this template 
+## About this template 
 This data dictionary is intended to support the metadata standardization and object cataloging for the Humanities Research Data Management course. Objects may include images, videos, audio, documents, and other resource types. Each project group should have its method for resource description documented so catalogers can use this MAP for reference while performing resource descriptions. The data standards included in this MAP aligns with CollectionBuilder’s machine-readable requirements for object representation rendering and system functionality. This MAP must align with the [CollectionBuilder’s Data Dictionary](https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/).
 
 View example objects cataloged using a spreadsheet by going to [this Google Sheet](https://docs.google.com/spreadsheets/d/1PlsijRkIF3GVToJAI0BZM522XMy-8JZU_tjcskRhsvg/edit?usp=sharing).
 
-#### MAP Table Explanation 
+## MAP Table Explanation 
 **Metadata Element Name:**  This column represents the metadata field names required or recommended when using CollectionBuilder. 
 
 **Metadata Element Display Label:** This column represents the text that will display on a CollectionBuilder item page. View an [Item Page example](https://lib410-spring2023.github.io/lib410-sandbox/item.html?id=demo001) to see how elements are displayed. 
@@ -32,7 +32,7 @@ View example objects cataloged using a spreadsheet by going to [this Google Shee
 
 **Example:** This column represents examples for how data should look 
 
-#### Object Example 
+## Object Example 
 This is an example of how you should enter data so it can accurately display on a CollectionBuilder item page. 
 {% include feature/image.html objectid="lucero_image_pilingandburning" %}
 
@@ -76,7 +76,7 @@ collection/p15013coll4/id/453" target="_blank">Archived Page</a>
 **citation:** "Piling and burning slash," Rogue River-Siskiyou National Forest Agency. 1930, Southern Oregon University, Oregon. Southern Oregon Digital Archives, Rogue River National Forest Historic Images, \<a href='https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453'target
 ='_blank'>https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453</a>
 
-#### Metadata Cataloging Guidelines 
+## Metadata Cataloging Guidelines 
 
 |Metadata Element Name|Metadata Element Display Label|Metadata Element Obligation|Controlled Vocabulary|Metadata Element Definition and Data Standard Requirement|Example|
 |----|----|----|----|----|----|
@@ -95,13 +95,17 @@ collection/p15013coll4/id/453" target="_blank">Archived Page</a>
 |source|Source|Required|No|Designates a related source collection or resource from which the object is derived. In such a situation, the name of the collection name and repository would be the input for this field. The input should be expressed as the collection name followed by a comma, then followed by the repository. This element aligns with the “Repository” element identified in your group’s content inventory. <br> <br> The value in your metadata field should be written in HTML where \<a href="URL to Item in Source Repository" target="_blank">Display Text Name of Collection - Name of Source Repository</a> <br> <br> **Note:** Instead of using a comma between the collection and the repository names, please use a hyphen (-). <br> <br> For example, type this into a cell: <br> <br> \<a href="https://digitalcollections.nypl.org/items/d1bde300-c52e-012f-bd93-58d385a7bc34" target="_blank">Robert N. Dennis Collection of Stereoscopic Views - The New York Public Library Digital Collections</a> <br> <br> In CollectionBuilder it will render on an item page to look like this: [Robert N. Dennis Collection of Stereoscopic Views - The New York Public Library Digital Collections](https://digitalcollections.nypl.org/items/d1bde300-c52e-012f-bd93-58d385a7bc34)|\<a href="https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99" target="_blank">Robert N. Dennis Collection of Stereoscopic Views - The New York Public Library Digital Collections</a>|
 |type|Work Type|Required|Yes|Distinguish between types using a one- or two-value input. If using a second value, the second value does not need to relate to a controlled vocabulary but should give the further specification of the object type. <br> <br> The two values in a pair should be separated by a semi-colon (`;`).|Image; Still Image|
 |rights|Rights Statement|Required|Yes|A standardized rights statement, not a creativecommons.org license statement, should be used in this field. <br> <br> The value in your metadata field should be written in HTML where \<a href="URL to Copyright Statement" target="_blank">Display Text Name of Copyright Statement</a> <br> <br>For example, type this into a cell: <br> <br> \<a href="https://rightsstatements.org/page/NoC-US/1.0/" target="_blank">No Copyright - In the United States</a> <br> <br> In CollectionBuilder it will render on an item page to look like this: [No Copyright - In the United States](https://rightsstatements.org/page/NoC-US/1.0/) <br> <Br> \<a href="https://rightsstatements.org/page/NoC-US/1.0/" target="_blank">No Copyright - In the United States</a>|
+|creativecommons|Creative Commons License|Recommended|Yes|A standardized creative commons license, not a rightsstatement.org rights statement, should be used in this field. <br> <br> The value in your metadata field should be written in HTML where \<a href=”URL to Creative Commons license” target=”_blank”>Display Text Name of Creative Commons License</a> <br> <br> For example, type this into a cell: <br> \<a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0</a> <br> <br> In CollectionBuilder, it will render on an item page to look like this: [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/) <br> <br> Our group decided to make this field recommended instead of required as not all objects had a creative commons license.| \<a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0</a>|
+|rightsnotes|Rights Note|Recommended|No|Information about rights held in and over the resource.|A free-text rights statement that complements the selected standardized rights statement. <br> <br> Our group only used this field if one was already provided by an object’s original repository.|The copyright and related rights status of this item has been reviewed by The New York Public Library, but we were unable to make a conclusive determination as to the copyright status of the item. You are free to use this Item in any way that is permitted by the copyright and related rights legislation that applies to your use.|
+|citation|Citation|Required|No|A citation representing where you got your object from. Use [“Citing Artifacts in a Digital Archive”](https://style.mla.org/citing-work-in-digital-archives/) for citation styling. Make sure to add the URL or DOI for the original source’s online location. <br> <br> The value in your metadata field should be written in HTML where "Title," Creator. Date, Repository, Repository Location. Website Name, Collection Name, \<a href='URL to Source Repository' target='_blank'>URL to Source Repository</a> <br> <br> **Note:** For the citation field, you must use single quotes for the URL and target=’_blank’ because the whole value is enclosed in double quotes to account for the commas. <br> <br> For example, type this into a cell: <br> "Oregon City, Oregon," Carleton E. Watkins. 1837, The New York Public Library Digital Collections, New York. NYPL Digital Collections, Robert N. Dennis Collection of Stereoscopic Views, \<a href='https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99' target='_blank'>https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99</a> <br> <br> In CollectionBuilder, it will render on an item page to look like this: <br> "Oregon City, Oregon," Carleton E. Watkins. 1837, The New York Public Library Digital Collections, New York. NYPL Digital Collections, Robert N. Dennis Collection of Stereoscopic Views, [https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99](https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99)| "Oregon City, Oregon," Carleton E. Watkins. 1837, The New York Public Library Digital Collections, New York. NYPL Digital Collections, Robert N. Dennis Collection of Stereoscopic Views, \<a href='https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99' target='_blank'>https://digitalcollections.nypl.org/items/510d47e2-699a-a3d9-e040-e00a18064a99</a>|
+|archivedpage|Archived Page|Required|No|This field must link to the archival record you’ve made using the Wayback Machine’s Save Page Now feature. <br> <br> You should use the Wayback Machine to archive all item pages in your digital collection. <br> <br> The value in your metadata field should be written in HTML where \<a href="URL to the Wayback Machine Page" target="_blank">Archived Page</a> <br> <br> For example, type this into a cell: <br> \<a href="https://web.archive.org/web/20230428201917/https://digitalcollections.nypl.org/items/d1bde300-c52e-012f-bd93-58d385a7bc34" target="_blank">Archived Page</a> <br> <br> In CollectionBuilder it will render on an item page to look like this: [Archived Page](https://web.archive.org/web/20230428201917/https://digitalcollections.nypl.org/items/d1bde300-c52e-012f-bd93-58d385a7bc34)|\<a href="https://web.archive.org/web/20230428201917/https://digitalcollections.nypl.org/items/d1bde300-c52e-012f-bd93-58d385a7bc34" target="_blank">Archived Page</a>|
 
+ ## Controlled Vocabularies
 
+|*Metadata Element Name*|*Controlled Vocabularies:* The fields listed below require the use of controlled vocabularies. Use the lists to guide you in the selection of terms that should be applied to each field.|
+|-----|-----|
+|subject|Please use your subject vocabulary list with definitions: <ul><li>Logging (LCSH) - http://id.loc.gov/authorities/subjects/sh85078097</li><li>Forests and forestry—Maps (LCSH) - http://id.loc.gov/authorities/subjects/sh85050715</li><li>Logging railroads (LCSH) - http://id.loc.gov/authorities/subjects/sh85078104</li><li>Railroad trains (LCSH) - http://id.loc.gov/authorities/subjects/sh85111077</li><li>Conifers (LCSH) - http://id.loc.gov/authorities/subjects/sh85031129</li><li>Forests and forestry—Equipment and supplies (LCSH) - http://id.loc.gov/authorities/subjects/sh85050725</li><li>Workers (AAT) - http://vocab.getty.edu/page/aat/300025886</li><li>Seeds—Cleaning—Equipment and supplies (LCSH)- http://id.loc.gov/authorities/subjects/sh85119548</li><li>Lumber camps (LCSH) - http://id.loc.gov/authorities/subjects/sh85078812</li><li>Foresters (LCSH) - http://id.loc.gov/authorities/subjects/sh85050686</li><li>Forestry schools and education (LCSH) - http://id.loc.gov/authorities/subjects/sh85050703</li><li>Animals in logging (LCSH) - (http://id.loc.gov/authorities/subjects/sh97007134</li><li>Postcard (AAT)- http://vocab.getty.edu/page/aat/300026816</li></ul> <br> <br> *AAT: Getty Art and Architecture Thesaurus, LCSH: Library of Congress Subject Headings*|
 
-
-
-
- 
 
 
 
