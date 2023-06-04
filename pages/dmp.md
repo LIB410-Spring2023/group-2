@@ -72,4 +72,4 @@ Data for this project will be stored in the GitHub repository and accessible thr
 
 ## Appendix
 ### Metadata Application Profile
-{% include feature/pdf.html objectid="metadata_map" width="50" %}
+{% include feature/pdf.html objectid="demo_002" width="50" %}
