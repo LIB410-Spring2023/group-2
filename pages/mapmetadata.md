@@ -36,27 +36,27 @@ View example objects cataloged using a spreadsheet by going to [this Google Shee
 This is an example of how you should enter data so it can accurately display on a CollectionBuilder item page. 
 {% include feature/image.html objectid="lucero_image_pilingandburning" %}
 
-**objectid:** lucero_image_pilingandburning 
-**title:** Piling and burning slash
-**filename:** lucero_image_pilingandburning.jpg
-**format:** image/jpeg
-**creator:** Rogue River-Siskiyou National Forest Agency
-**date:** 1930
-**date created:** 1930
-**description:** Two workers swing axes through piles of burnt wood in a forest.
-**subject:** Workers; Logging
-**location:** Rogue River National Forest (forest)
-**latitude:** 42.06236385
-**longitude:** -123.9387952
-**source:** \<a href="https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453" target="_blank">Rogue River National Forest Historic Images - Southern Oregon Digital Archives</a> 
-**type:** Image; Still Image
-**creativecommons:** \<a href="https://rightsstatements.org/page/NoC-US/1.0/" target="_blank">No Copyright - United States</a>
-**rights:** \<a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0</a>
-**rightsnotes:** Please provide the following credit required by the Memorandum of Understanding between Hannon Library and the Rogue River-Siskiyou National Forest: “This photograph is part of the Historical Records Collection of the Rogue River National Forest, and made available courtesy of Southern Oregon University Hannon Library.” See also: \<a href="http://soda.sou.edu/copyright.html"target="_blank">http://soda.sou.edu/copyright.html</a>
+**objectid:** lucero_image_pilingandburning <br>
+**title:** Piling and burning slash <br>
+**filename:** lucero_image_pilingandburning.jpg <br>
+**format:** image/jpeg <br>
+**creator:** Rogue River-Siskiyou National Forest Agency <br>
+**date:** 1930 <br>
+**date created:** 1930 <br>
+**description:** Two workers swing axes through piles of burnt wood in a forest. <br>
+**subject:** Workers; Logging <br>
+**location:** Rogue River National Forest (forest) <br>
+**latitude:** 42.06236385 <br>
+**longitude:** -123.9387952 <br>
+**source:** \<a href="https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453" target="_blank">Rogue River National Forest Historic Images - Southern Oregon Digital Archives</a> <br>
+**type:** Image; Still Image <br>
+**creativecommons:** \<a href="https://rightsstatements.org/page/NoC-US/1.0/" target="_blank">No Copyright - United States</a> <br>
+**rights:** \<a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark 1.0</a> <br>
+**rightsnotes:** Please provide the following credit required by the Memorandum of Understanding between Hannon Library and the Rogue River-Siskiyou National Forest: “This photograph is part of the Historical Records Collection of the Rogue River National Forest, and made available courtesy of Southern Oregon University Hannon Library.” See also: \<a href="http://soda.sou.edu/copyright.html"target="_blank">http://soda.sou.edu/copyright.html</a> <br>
 **archivedpage:** \<a href="https://web.archive.org/web/20230522211809/https://cdm16085.contentdm.oclc.org/digital/
-collection/p15013coll4/id/453" target="_blank">Archived Page</a>
+collection/p15013coll4/id/453" target="_blank">Archived Page</a> <br>
 **citation:** "Piling and burning slash," Rogue River-Siskiyou National Forest Agency. 1930, Southern Oregon University, Oregon. Southern Oregon Digital Archives, Rogue River National Forest Historic Images, \<a href='https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453'target
-='_blank'>https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453</a>
+='_blank'>https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453</a> <br>
 
 ## Metadata Cataloging Guidelines 
 
