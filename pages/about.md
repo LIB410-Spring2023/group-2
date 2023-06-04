@@ -10,7 +10,6 @@ credits: true
 
 {% include feature/jumbotron.html objectid="staggs_image_logsrailroadcar" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
 ## About the Collection
 
