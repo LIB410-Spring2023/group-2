@@ -22,7 +22,7 @@ View example objects cataloged using a spreadsheet by going to [this Google Shee
 #### MAP Table Explanation 
 **Metadata Element Name:**  This column represents the metadata field names required or recommended when using CollectionBuilder. 
 
-**Metadata Element Display Label:** This column represents the text that will display on a CollectionBuilder item page. View an Item Page example to see how elements are displayed. 
+**Metadata Element Display Label:** This column represents the text that will display on a CollectionBuilder item page. View an [Item Page example](https://lib410-spring2023.github.io/lib410-sandbox/item.html?id=demo001) to see how elements are displayed. 
 
 **Data Entry Obligation:** This column represents a cataloger’s obligation to add a value to a specific metadata element.
 
@@ -75,3 +75,8 @@ This is an example of how you should enter data so it can accurately display on 
 **citation:** "Piling and burning slash," Rogue River-Siskiyou National Forest Agency. 1930, Southern Oregon University, Oregon. Southern Oregon Digital Archives, Rogue River National Forest Historic Images, \<a href='https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453'target='_blank'>https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453</a>
 
 #### Metadata Cataloging Guidelines 
+
+|Metadata Element Name|Metadata Element Display Label|Metadata Element Obligation|Controlled Vocabulary|Metadata Element Definition and Data Standard Requirement|Example|
+|----|----|----|----|----|----|
+|objectid|Not applicable|Required|No|A unique string with no spaces or special characters that will be used as an ID in the website.|Each objectid property should have a single unique value. This should be a unique, lowercase string with no spaces or special characters as it will be used to form the item’s URL. Underscores (_) and dashes (-) are okay; slashes (/) should NOT be used in this field. <br> Our group decided the object id would be the same as the file name (without .pdf/.jpg)|demo001 <br> Our group example: <br> staggs_doc_sprucelog|
+
