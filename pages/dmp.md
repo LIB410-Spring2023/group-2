@@ -72,4 +72,4 @@ Data for this project will be stored in the GitHub repository and accessible thr
 
 ## Appendix
 ### Metadata Application Profile
-The metadata application profile is [available here](https://lib410-spring2023.github.io/group-2/mapmetadata.html).
+{% include feature/pdf.html objectid="metadata_map" width="50" %}
