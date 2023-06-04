@@ -33,11 +33,11 @@ Here is a breakdown of collection size, work type, file format, total number of 
 
 | Work Type | File Format | Total Assets | What is the average file size (in MB) for each file type in this collection? | What is the total size of all files (in MB) that have the same file type? |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| image | jpg | 24 | ?? mb | ?? mb |
-| text | pdf | 1 | 2.44 mb | 2.44 mb |
-| audio | mp3 | 1 | 22.0 mb | 22.0 mb |
+| image | jpg | 24 | 1.96 MB | 46.98 MB |
+| text | pdf | 1 | 2.44 MB | 2.44 MB |
+| audio | mp3 | 1 | 22.0 MB | 22.0 MB |
 
-In total the collection's data quantity is ?? mb as of June 2023
+In total the collection's data quantity is 71.42 MB as of June 2023
 
 ### Data Handling
 Digital objects have been collected from several online repositories by Isabelle Dana, Mattie Lucero, Elena Perez, and Cecelia Staggs. They have ensured that these objects are either in public domain or have copyright licensing that allows for educational use and redistribution. All four group members have applied file naming standardization, file conversions, and resource descriptions to the collected digital objects. All data, including the digital objects and the metadata spreadsheet files, is held in the University of Oregon Dropbox folders of the team members, as well as in a Sharepoint folder. This collection is considered complete at of June 2023 and there is no plan to have additional digital objects added to it in the future.
@@ -47,13 +47,10 @@ Filenames should follow the following format: collectorlastname_filetype_briefob
 
 Examples: dana_image_bensoncampcrew_001, staggs_image_donkeyengine
 
-collectorlastname: The last name of whoever found the object and is recording it in this digital collection.
-
-filetype: What type of digital object the file is, i.e. image, document (doc), or audio
-
-briefobjectdescription: Briefly explaining what the object is in under twenty characters, in a way that would be clear to someone who is not a part of this project
-
-serialnumber: An optional addition to the end of the file name to describe multiple parts of a series of related files
+- collectorlastname: The last name of whoever found the object and is recording it in this digital collection.
+- filetype: What type of digital object the file is, i.e. image, document (doc), or audio
+- briefobjectdescription: Briefly explaining what the object is in under twenty characters, in a way that would be clear to someone who is not a part of this project
+- serialnumber: An optional addition to the end of the file name to describe multiple parts of a series of related files
 
 ### Legal and Ethical Restrictions 
 We do not foresee any potential issues regarding legal or ethical restrictions. The objects chosen for this project are either in public domain or have copyright licenses that allow for educational use and redistribution with proper credit given. Additionally, all objects are from the 19th and 20th centuries and do not involve modern evolving ethical issues surrounding the logging and forestry industries in Oregon. Many of the objects were donated to the library repositories that the team obtained them from for the purposes of being shared for education, so there is not data that needs to be privatized in this collection.
