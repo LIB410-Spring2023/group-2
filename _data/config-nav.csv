@@ -7,6 +7,4 @@ Map,/map.html
 Timeline,/timeline.html
 Data,/data.html
 About,/about.html
-Data Management Plan,,
-Data Management Plan,/dmp.html,Data Management Plan
-Metadata Application Profile,/mapmetadata.html,Data Management Plan
+Data Management Plan,/dmp.html
