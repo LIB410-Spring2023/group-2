@@ -59,6 +59,7 @@ collection/p15013coll4/id/453" target="_blank">Archived Page</a> <br>
 ='_blank'>https://cdm16085.contentdm.oclc.org/digital/collection/p15013coll4/id/453</a> <br>
 
 ## Metadata Cataloging Guidelines 
+
 |Metadata Element Name|Metadata Element Display Label|Metadata Element Obligation|Controlled Vocabulary|Metadata Element Definition and Data Standard Requirement|Example|
 |----|----|----|----|----|----|
 |objectid|Not applicable|Required|No|A unique string with no spaces or special characters that will be used as an ID in the website. <br> <br> Each objectid property should have a single unique value. This should be a unique, **lowercase string** with no spaces or special characters as it will be used to form the item’s URL. Underscores (_) and dashes (-) are okay; **slashes (/) should NOT be used in this field**. <br> <br> Our group decided the object id would be the same as the file name (without .pdf/.jpg)|demo001 <br> <br> Our group example: <br> staggs_doc_sprucelog|
