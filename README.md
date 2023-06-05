@@ -12,10 +12,10 @@ for the Humanities, and sharing thematic research digital collections using GitH
 source platform CollectionBuilder. (Taken from syllabus)
 
 ## Repository Creators
-**Elena Perez,** Project Manager
-**Mattie Lucero,** Collection Development Manager
-**Cecelia Staggs,** Object Preservation Manager
-**Isabelle Dana,** Metadata Manager
+- **Elena Perez,** Project Manager
+- **Mattie Lucero,** Collection Development Manager
+- **Cecelia Staggs,** Object Preservation Manager
+- **Isabelle Dana,** Metadata Manager
 
 ## Repository Website
 **The Oregon Forestry Industry:** Equipment and lifestyle of laborers in the 19th and 20th centuries
