@@ -74,3 +74,5 @@ Data for this project will be stored in the GitHub repository and accessible thr
 ### Metadata Application Profile
 The metadata application profile is available in our GitHub repository: [Group 2 Metadata Application Profile](https://github.com/LIB410-Spring2023/group-2/blob/main/objects/metadata_map.pdf)
 
+### File Naming and Citation Conventions
+More information about our file naming and citation conventions is available in our GitHub repository: [Group 2 File Naming and Citation Conventions](https://github.com/LIB410-Spring2023/group-2/blob/main/objects/group_two_file_naming_citation_conventions.pdf)
